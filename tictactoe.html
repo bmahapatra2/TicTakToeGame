@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<script src="TicTac.js"></script>
+	<title></title>
+</head>
+<body id="body" onload="startGame();">
+<h1>TIC-TAC-TOE</h1>
+<div id="message">Message Will Go Here</div>
+<div class = "structure">
+	<div class = "Row">
+		<div id="b1" class = "Box" onClick="nextMove(this);"></div>
+		<div id="b2" class = "Box" onClick="nextMove(this);"></div>
+		<div id="b3" class = "Box" onClick="nextMove(this);"></div>
+	</div>
+	<div class = "Row">
+		<div id="b4" class = "Box" onClick="nextMove(this);"></div>
+		<div id="b5" class = "Box" onClick="nextMove(this);"></div>
+		<div id="b6" class = "Box" onClick="nextMove(this);"></div>
+	</div>
+	<div class = "Row">
+		<div id="b7" class = "Box" onClick="nextMove(this);"></div>
+		<div id="b8" class = "Box" onClick="nextMove(this);"></div>
+		<div id="b9" class = "Box" onClick="nextMove(this);"></div>
+	</div>
+</div>
+<div class="reset"><a href="javascript:startGame();">Reset</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.structure{
+	display:flex;	
+	flex-wrap: wrap;
+	width: 150px;
+	height: 170px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-left: 600px;
+
+}
+.Row{
+	flex:1;	
+	display: flex;
+	justify-content: center;
+	color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    height: 46px;
+    width: 524px;
+
+}
+
+#body{
+	background-image: url("maxresdefault.jpg");
+}
+.Box{
+	display: flex;
+	flex: 4;
+	width:650px;
+	height: 550px;
+	border: 5px solid grey;
+	color:  #b3ffd9;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 146%;
+    width: 824px;
+}
+
+
+#message{
+	font-size: 365%;
+	text-align: center;
+	color:  white;	
+}
+h1{
+	font-size: 424%;
+	text-align: center;
+	margin-top: 35px;
+	color: #DC143C;
+
+}
+.reset
+{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 35px;
+	border: 5px solid hotpink ;
+	margin-left: 46%;
+	width: 95px;
+	box-shadow: 10px 10px 5px yellowgreen;
+}
